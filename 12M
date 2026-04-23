@@ -151,7 +151,363 @@ Efficient and widely used (Internet)
 
 
 
+✅ Q4. Single (Analog) & Composite Signals + Periodic & Aperiodic (12M)
+What is a Signal?
+A signal is an electrical or electromagnetic wave used to carry data from one device to another.
 
+Single (Simple) Signal
+A single signal consists of only one frequency.
+It is a pure sine wave.
+It has constant amplitude, frequency, and phase.
+Example: Ideal sine wave.
+
+Composite Signal
+A composite signal is made up of multiple sine waves of different frequencies.
+Real-world signals are always composite.
+These signals can be analyzed using Fourier Analysis.
+Each component has its own amplitude, frequency, and phase.
+
+Periodic Signals
+A signal that repeats itself after a fixed time period.
+Has a definite pattern.
+Example: Sine wave.
+Characteristics:
+Fixed cycle
+Predictable behavior
+
+Aperiodic (Non-periodic) Signals
+A signal that does not repeat over time.
+No fixed pattern.
+Example: Human voice signals.
+
+Conclusion
+Signals are fundamental for communication, and understanding their types helps in efficient transmission and processing of data.
+
+
+
+
+
+
+✅ Q5. Analog & Digital Signals + Conversions (12M)
+Analog Signal
+Continuous signal that varies smoothly over time.
+Can take infinite values.
+Example: Temperature, sound waves.
+
+Digital Signal
+Discrete signal with limited values (0 and 1).
+Used in modern communication systems.
+Example: Computer data.
+
+Conversions
+
+1. Digital to Analog Conversion
+Converts digital data into analog signals.
+Techniques:
+ASK (Amplitude Shift Keying)
+Amplitude changes based on data.
+Sensitive to noise.
+FSK (Frequency Shift Keying)
+Frequency changes for 0 and 1.
+More reliable than ASK.
+PSK (Phase Shift Keying)
+Phase of signal changes.
+Most efficient and widely used.
+
+2. Analog to Digital Conversion
+PCM (Pulse Code Modulation)
+Converts analog signal into digital form.
+Steps:
+Sampling
+Quantization
+Encoding
+Produces accurate digital output.
+
+Delta Modulation (DM)
+Provides approximation of signal.
+Simpler than PCM.
+Uses staircase representation.
+
+3. Analog to Analog Conversion
+Amplitude Modulation (AM)
+Amplitude varies, frequency constant.
+Frequency Modulation (FM)
+Frequency varies, amplitude constant.
+Phase Modulation (PM)
+Phase varies with signal.
+
+Conclusion
+Conversions are essential to transmit different types of data efficiently across networks.
+
+
+
+
+
+
+
+✅ Q6. Network Devices (12M)
+1. Hub
+Works at Physical Layer.
+Broadcasts data to all devices.
+Half duplex.
+Cheap but inefficient.
+
+2. Bridge
+Works at Data Link Layer.
+Connects two LANs.
+Uses MAC address filtering.
+
+3. Switch
+Advanced version of hub.
+Works at Data Link Layer.
+Sends data only to intended device.
+Full duplex.
+Reduces congestion.
+
+4. Router
+Works at Network Layer.
+Uses IP address to route data.
+Finds best path.
+Connects multiple networks.
+
+5. Gateway
+Works on all OSI layers.
+Connects different networks.
+Acts as protocol converter.
+
+
+
+
+
+
+✅ Q7. Errors & Detection (12M)
+What is Error?
+Error occurs when transmitted data is altered during transmission.
+
+Types of Errors
+Single-bit error
+Multiple-bit error
+Burst error
+
+Error Detection Methods
+
+1. Parity Bit
+Adds extra bit to make number of 1s even/odd.
+Simple but limited detection.
+
+2. Checksum
+Sum of data is calculated and sent.
+Receiver verifies correctness.
+
+3. CRC (Cyclic Redundancy Check)
+Uses polynomial division.
+Very reliable method.
+
+4. LRC (Longitudinal Redundancy Check)
+Checks columns of data.
+Detects burst errors.
+
+5. VRC (Vertical Redundancy Check)
+Checks rows of data.
+Detects single-bit errors.
+
+
+
+
+
+
+✅ Q8. OSI Model (12M — VERY IMPORTANT)
+Definition
+OSI (Open Systems Interconnection) model is a 7-layer architecture used for communication.
+
+7 Layers of OSI Model
+
+1. Physical Layer
+Transmits raw bits.
+Converts data into signals.
+
+2. Data Link Layer
+Adds MAC address.
+Error detection & flow control.
+
+3. Network Layer
+Adds IP address.
+Routing and path selection.
+
+4. Transport Layer
+Segmentation of data.
+Error & flow control.
+Protocols: TCP, UDP.
+
+5. Session Layer
+Manages sessions.
+Authentication & authorization.
+
+6. Presentation Layer
+Data translation.
+Encryption & compression.
+
+7. Application Layer
+User interaction layer.
+Examples: HTTP, FTP, SMTP.
+
+Conclusion
+OSI model helps in standardizing communication and troubleshooting networks.
+
+
+
+
+
+
+
+
+✅ Q9. TCP/IP Reference Model (VERY IMPORTANT – 12M)
+Definition
+TCP/IP (Transmission Control Protocol / Internet Protocol) model is a networking model used for communication over the Internet.
+ It was developed by the Department of Defense and is the basis of modern networking.
+
+Layers of TCP/IP Model (4 Layers)
+
+1. Application Layer
+Provides interface between user and network.
+Combines OSI’s Application, Presentation, Session layers.
+Functions:
+File transfer
+Email services
+Web browsing
+Protocols:
+HTTP (web)
+FTP (file transfer)
+SMTP (email)
+TELNET
+
+2. Transport Layer
+Responsible for end-to-end communication.
+Functions:
+Segmentation of data
+Flow control
+Error control
+Data sequencing
+Protocols:
+TCP (Transmission Control Protocol)
+Connection-oriented
+Reliable
+Error checking and recovery
+Slower but accurate
+UDP (User Datagram Protocol)
+Connectionless
+Faster
+No guarantee of delivery
+Used in streaming, gaming
+
+3. Internet Layer
+Responsible for logical addressing and routing.
+Functions:
+Assigns IP address
+Determines best path
+Protocols:
+IP (Internet Protocol)
+ICMP
+ARP
+
+4. Network Access Layer
+Combines Physical + Data Link layer.
+Functions:
+Transmission of raw data
+Handles hardware addressing (MAC)
+Converts data into signals
+
+Conclusion
+TCP/IP model is widely used because it is simple, flexible, and supports all modern network communications.
+
+
+
+
+
+
+✅ Q10. Multiplexing (VERY IMPORTANT – 12M)
+Definition
+Multiplexing is a technique used to combine multiple signals into a single communication channel to improve efficiency.
+
+Components
+Multiplexer (MUX) – Combines signals
+Demultiplexer (DEMUX) – Separates signals
+
+Types of Multiplexing
+
+1. Frequency Division Multiplexing (FDM)
+Bandwidth divided into frequency bands.
+Each signal uses different frequency.
+Advantages:
+Supports multiple users
+Full duplex communication
+Disadvantages:
+Expensive
+Interference possible
+
+2. Time Division Multiplexing (TDM)
+Channel divided into time slots.
+Each user transmits in assigned time.
+Advantages:
+Efficient use of bandwidth
+Low cost expansion
+Disadvantages:
+Time synchronization required
+Delay possible
+
+3. Wavelength Division Multiplexing (WDM)
+Used in fiber optics.
+Different wavelengths carry different signals.
+Advantages:
+Very high data rate
+Efficient for optical networks
+Disadvantages:
+High cost
+Complex technology
+
+Conclusion
+Multiplexing improves bandwidth utilization and allows multiple users to share a single communication channel.
+
+
+
+
+
+
+✅ Q11. PSTN (Public Switched Telephone Network) (12M)
+Definition
+PSTN is a global network of telephone systems used for voice communication.
+ It uses circuit switching to establish a dedicated communication path.
+
+Features
+Uses circuit switching
+Provides voice communication
+Works through telephone lines
+Reliable and widely used
+
+Working of PSTN
+Caller dials number
+Connection established via switching centers
+Dedicated path created
+Voice transmitted as analog signals
+Call ends → connection released
+
+Components
+Telephone devices
+Switching offices (central exchange)
+Transmission lines (cables)
+
+Advantages
+Reliable communication
+Wide coverage
+Simple technology
+
+Disadvantages
+Uses dedicated path → inefficient
+Not suitable for data transmission
+Expensive for long-distance calls
+
+Conclusion
+PSTN is the traditional telephone system that laid the foundation for modern communication networks.
 
 
 
