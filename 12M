@@ -1,0 +1,165 @@
+✅ Q1. Define Data Communication. Explain components + modes (12M)
+Definition of Data Communication
+Data Communication is the process of exchanging data between two or more devices through a transmission medium such as cables, wires, or wireless signals.
+
+Five Components of Data Communication System
+Sender
+The device that sends the data.
+Example: Computer, mobile phone.
+It generates the message to be transmitted.
+Receiver
+The device that receives the data.
+Example: Another computer or device.
+It interprets the received message.
+Message
+The actual data being communicated.
+It can be text, numbers, images, audio, or video.
+Transmission Medium
+The physical path through which data travels.
+Examples: Twisted pair cable, fiber optic, radio waves.
+Protocol
+A set of rules governing data communication.
+Ensures proper transmission between sender and receiver.
+
+Modes of Data Flow
+Simplex Mode
+Communication is one-way only.
+Example: Keyboard → Computer
+No feedback from receiver.
+Half Duplex Mode
+Communication is two-way but not simultaneous.
+Example: Walkie-talkie
+Only one device transmits at a time.
+Full Duplex Mode
+Communication is two-way and simultaneous.
+Example: Telephone call
+Both sender and receiver can send data at the same time.
+
+
+
+
+
+✅ Q2. Protocol + Elements + Topology (12M)
+Definition of Protocol
+A protocol is a set of rules that governs data communication. It defines how data is transmitted, what is transmitted, and when it is transmitted.
+
+Elements of Protocol
+Syntax
+Refers to the structure or format of data.
+Defines how data is arranged.
+Semantics
+Defines the meaning of each section of bits.
+Includes error detection and control information.
+Timing
+Determines when data should be sent and at what speed.
+Ensures synchronization between sender and receiver.
+
+Network Topology
+Network topology refers to the arrangement of nodes and connections in a network.
+
+Types of Topology
+1. Bus Topology
+All devices connected to a single cable (backbone).
+Advantages:
+Low cost
+Easy to install
+Disadvantages:
+Failure of main cable stops entire network
+
+2. Star Topology
+All devices connected to a central hub.
+Advantages:
+Easy to troubleshoot
+Failure of one node doesn’t affect others
+Disadvantages:
+Hub failure crashes entire network
+
+3. Ring Topology
+Devices connected in circular form.
+Data travels in one direction using token.
+Disadvantage:
+Failure of one node stops network
+
+4. Mesh Topology
+Every node connected to every other node.
+Advantages:
+High reliability
+Disadvantages:
+Expensive and complex
+
+5. Tree Topology
+Combination of Bus and Star.
+Advantage:
+Easy expansion
+Disadvantage:
+Backbone failure affects segments
+
+
+
+
+
+✅ Q3. Transmission Media + Impairment + Switching (12M)
+Transmission Media
+Transmission medium is the path through which data travels.
+
+Types
+1. Guided Media (Wired)
+Twisted Pair Cable
+Cheap and widely used
+Prone to noise
+Coaxial Cable
+Better shielding
+Used in TV networks
+Fiber Optic Cable
+Uses light signals
+High speed and long distance
+
+2. Unguided Media (Wireless)
+Radio Waves
+Long distance
+Used in mobile communication
+Microwaves
+Line-of-sight communication
+Used in satellites
+Infrared
+Short distance
+Used in remotes
+
+Transmission Impairment
+Attenuation
+Loss of signal strength over distance
+Distortion
+Signal changes shape
+Noise
+Unwanted signals affecting data
+
+Types of Switching
+1. Circuit Switching
+Dedicated path established
+Example: Telephone
+Reliable but inefficient
+
+2. Message Switching
+Entire message sent and stored
+Slow due to store-and-forward
+
+3. Packet Switching
+Message divided into packets
+Efficient and widely used (Internet)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
