@@ -5,6 +5,7 @@ Half Duplex: Two-way but not simultaneous (e.g., walkie-talkie).
 Full Duplex: Two-way simultaneous communication (e.g., telephone).
 These modes define how efficiently data is exchanged in a network.
 
+
 2. Shannon Capacity
 Shannon Capacity defines the maximum data rate at which information can be transmitted over a communication channel without error.
 It depends on:
@@ -12,6 +13,7 @@ Bandwidth of channel
 Noise level
 Higher bandwidth and lower noise → higher capacity.
  It is important for designing efficient communication systems.
+
 
 3. Concept of Protocol
 A protocol is a set of rules and standards used for communication between devices.
@@ -21,6 +23,7 @@ How data is sent
 When data is sent
 Protocols ensure proper understanding between sender and receiver.
 
+
 4. Parity Check
 Parity check is a simple error detection technique.
 An extra bit (parity bit) is added to data.
@@ -28,10 +31,166 @@ Even parity: total number of 1s is even
 Odd parity: total number of 1s is odd
 At receiver side, parity is checked to detect errors.
 
+
 5. Study of Signals
 A signal is an electrical or electromagnetic wave used to carry data.
 Types:
 Analog: continuous signals (e.g., sound)
 Digital: discrete signals (0 and 1)
 Signals are the basic means of communication in networks.
+
+
+6. Routers and its Types
+A router is a network device that forwards data packets using IP addresses.
+Types:
+Wired Router: Uses cables
+Wireless Router: Uses Wi-Fi
+Core Router: Used in large networks
+Edge Router: Connects to external networks
+Routers ensure data reaches the correct destination.
+
+
+7. What is Data Communication?
+Data communication is the process of transferring data between devices using a transmission medium.
+It involves:
+Sender
+Receiver
+Message
+Medium
+Protocol
+It enables communication in computer networks.
+
+
+8. What is TCP?
+TCP (Transmission Control Protocol) is a reliable, connection-oriented protocol.
+Features:
+Ensures data delivery
+Error detection and correction
+Data sequencing
+Used in web browsing, email, file transfer.
+
+
+9. What is PSTN?
+PSTN (Public Switched Telephone Network) is a traditional telephone network.
+Uses circuit switching
+Provides voice communication
+Establishes dedicated path
+It is widely used for landline communication.
+
+
+10. Networking Connecting Devices (Any Four)
+Common networking devices are:
+Hub
+Switch
+Router
+Bridge
+Gateway
+They help in connecting and managing communication between devices.
+
+
+11. Guided and Unguided Transmission
+Guided Media (Wired):
+Uses physical cables
+Example: Twisted pair, fiber optic
+Unguided Media (Wireless):
+Uses air or space
+Example: Radio waves, microwaves
+They define how signals travel in a network.
+
+
+12. Types of Errors
+Errors occur when transmitted data changes.
+Types:
+Single-bit error: Only one bit changes
+Multiple-bit error: More than one bit changes
+Burst error: Multiple bits affected in sequence
+Error detection methods are used to identify these.
+
+
+13. Topology
+Network topology is the arrangement of devices in a network.
+Types:
+Bus
+Star
+Ring
+Mesh
+Tree
+It affects performance, cost, and reliability of network.
+
+
+14. Time and Frequency Domain
+Time Domain: Signal represented over time (amplitude vs time)
+Frequency Domain: Signal represented by frequency components
+Used to analyze signals in communication systems.
+
+
+15. Gateways
+A gateway is a network device that connects different networks with different protocols.
+Acts as translator
+Works on all OSI layers
+Enables communication between dissimilar systems
+
+
+16. Difference between OSI and TCP/IP
+OSI Model
+TCP/IP Model
+7 layers
+4 layers
+Theoretical model
+Practical model
+Developed by ISO
+Developed by DoD
+More detailed
+Simpler
+
+Both are used to understand network communication.
+
+
+17. Time Division Multiplexing (TDM)
+TDM is a multiplexing technique where multiple signals share a channel using time slots.
+Each user gets a fixed time slot
+Efficient bandwidth usage
+Used in digital communication systems.
+
+
+18. What is Network?
+A network is a collection of connected devices that communicate with each other.
+Shares resources
+Enables data communication
+Example: Internet, LAN
+
+
+19. What is Wavelength?
+Wavelength is the distance between two consecutive peaks of a wave.
+Measured in meters
+Inversely related to frequency
+It is an important property of signals.
+
+
+20. What is Signal?
+A signal is a physical form used to transmit data.
+Can be electrical or electromagnetic
+Carries information between devices
+
+
+21. Distance Vector Routing
+It is a routing technique where routers share routing information with neighbors.
+Uses distance (hop count)
+Chooses shortest path
+Example: RIP protocol
+
+
+22. What is Switching?
+Switching is the process of transferring data from source to destination through different paths.
+Types:
+Circuit switching
+Packet switching
+Message switching
+It ensures efficient data delivery.
+
+
+
+
+
+
 
