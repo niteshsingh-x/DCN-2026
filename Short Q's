@@ -1,0 +1,37 @@
+1. Transmission Modes
+Transmission modes refer to the direction of data flow between two devices.
+Simplex: One-way communication only (e.g., keyboard → computer).
+Half Duplex: Two-way but not simultaneous (e.g., walkie-talkie).
+Full Duplex: Two-way simultaneous communication (e.g., telephone).
+These modes define how efficiently data is exchanged in a network.
+
+2. Shannon Capacity
+Shannon Capacity defines the maximum data rate at which information can be transmitted over a communication channel without error.
+It depends on:
+Bandwidth of channel
+Noise level
+Higher bandwidth and lower noise → higher capacity.
+ It is important for designing efficient communication systems.
+
+3. Concept of Protocol
+A protocol is a set of rules and standards used for communication between devices.
+It defines:
+What data is sent (format)
+How data is sent
+When data is sent
+Protocols ensure proper understanding between sender and receiver.
+
+4. Parity Check
+Parity check is a simple error detection technique.
+An extra bit (parity bit) is added to data.
+Even parity: total number of 1s is even
+Odd parity: total number of 1s is odd
+At receiver side, parity is checked to detect errors.
+
+5. Study of Signals
+A signal is an electrical or electromagnetic wave used to carry data.
+Types:
+Analog: continuous signals (e.g., sound)
+Digital: discrete signals (0 and 1)
+Signals are the basic means of communication in networks.
+
